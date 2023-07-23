@@ -815,7 +815,7 @@
   .modal-form-imput-container {
     position: relative;
   }
-  .modal-imput {
+  .modal-input {
     width: 360px;
     max-height: 40px;
   
@@ -827,7 +827,7 @@
     padding-left: 38px;
     transition: border-color var(--transition-dur-and-func);
   }
-  .modal-imput:focus {
+  .modal-input:focus {
     outline: none;
     border-color: #4d5ae5;
   }
@@ -842,7 +842,7 @@
   
     transition: fill var(--transition-dur-and-func);
   }
-  .modal-imput:focus + .modal-form-input-icon {
+  .modal-input:focus + .modal-form-input-icon {
     fill: #4d5ae5;
   }
   .form-textarea-container {
@@ -987,7 +987,7 @@
       width: 100%;
     }
   
-    .modal-imput {
+    .modal-input {
       width: 100%;
     }
     .form-textarea-container {
